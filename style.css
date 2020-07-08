@@ -1,0 +1,53 @@
+Img {border: white solid 2px;
+    width: 150px;}
+
+
+
+    h1 {
+        text-align: center;
+        color: white;
+        font-family: 'Quicksand', sans-serif;
+    }
+    h2 {
+        text-align: center;
+        color: white;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    body {
+
+        background-color: rgb(32, 35, 41);
+    }
+
+    .DivCountry{
+        width: 200px; height: 250px; 
+        margin: 16px;
+        font-family: 'Quicksand', sans-serif;        block-size: auto; 
+    overflow-x: auto;   }
+
+        input {font-size: larger;
+            font-family: 'Quicksand', sans-serif;        }
+
+
+
+    #searchContainer {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #countryContainer {
+        display: flex;
+        /* flex-direction: row; */
+        width: 100%;
+        flex-wrap: wrap;
+        margin: 10px;
+        justify-content: center;
+    }
+
+
+    .infoSpan {
+        display: flex;
+        color: white;
+    }
+    span{ margin:6px;}
