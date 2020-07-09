@@ -7,7 +7,6 @@ getAllBtn.addEventListener('click', getAllCountries)
 
 function createCountryDiv() {
     let searchName = document.querySelector('#search').value
-    console.log(searchName);
     const xhr = new XMLHttpRequest();
     xhr.onload = function () {
         if (searchName==="" || this.status === 404)
@@ -19,7 +18,6 @@ function createCountryDiv() {
         let characterObj = JSON.parse(this.response)
         let countryContainer = document.querySelector('#countryContainer')
         countryContainer.innerHTML = "";
-        console.log(this.status)
         
         createCountryBox(characterObj, countryContainer);
     }
